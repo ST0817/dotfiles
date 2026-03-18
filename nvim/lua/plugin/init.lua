@@ -22,6 +22,7 @@ require("lazy").setup {
         { import = "plugin.onedark" },
         { import = "plugin.lspconfig" },
         { import = "plugin.conform" },
+        { import = "plugin.noice" },
     },
     install = {
         colorscheme = { "onedark" },
