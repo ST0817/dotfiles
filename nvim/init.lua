@@ -46,4 +46,4 @@ vim.diagnostic.config {
     },
 }
 
-require("plugin")
+require "plugin"

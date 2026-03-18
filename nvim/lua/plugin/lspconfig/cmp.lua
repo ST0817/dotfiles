@@ -4,10 +4,11 @@ return {
         "hrsh7th/cmp-nvim-lsp",
         "FelipeLema/cmp-async-path",
         "onsails/lspkind.nvim",
-        require("plugin.lspconfig.cmp.cmdline"),
+        require "plugin.lspconfig.cmp.cmdline",
+        require "plugin.lspconfig.cmp.lazydev",
     },
     opts = function(_, opts)
-        local cmp = require("cmp")
+        local cmp = require "cmp"
 
         opts.sources = {
             { name = "nvim_lsp" },
@@ -91,10 +92,10 @@ return {
 
         cmp.setup.cmdline(":", {
             sources = cmp.config.sources({
-                { name = "async_path" }
+                { name = "async_path" },
             }, {
-                { name = "cmdline" }
-            })
+                { name = "cmdline" },
+            }),
         })
     end,
 }
