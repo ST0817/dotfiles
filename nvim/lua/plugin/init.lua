@@ -24,6 +24,9 @@ require("lazy").setup {
         { import = "plugin.conform" },
         { import = "plugin.noice" },
         { import = "plugin.lualine" },
+        { import = "plugin.indent-blankline" },
+        { import = "plugin.mini-pairs" },
+        { import = "plugin.tabset" },
     },
     install = {
         colorscheme = { "onedark" },

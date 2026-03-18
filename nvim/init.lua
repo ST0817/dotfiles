@@ -1,10 +1,10 @@
 local opt = {
     number = true,
     cursorline = true,
-    tabstop = 4,
+    --tabstop = 4,
     shiftwidth = 0,
     softtabstop = 0,
-    expandtab = true,
+    --expandtab = true,
     shiftround = true,
     mouse = "",
     wrap = false,
