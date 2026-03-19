@@ -9,6 +9,7 @@ return {
             "lua_ls",
             "stylua",
             "taplo",
+            "rust_analyzer",
         }
     end,
 }

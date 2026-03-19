@@ -10,6 +10,8 @@ return {
     opts = function(_, opts)
         local cmp = require "cmp"
 
+        opts.preselect = cmp.PreselectMode.None
+
         opts.sources = {
             { name = "nvim_lsp" },
             { name = "async_path" },
